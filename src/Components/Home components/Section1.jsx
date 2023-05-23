@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import Pic3 from "../../Images/chips.jpg";
 import Pic4 from "../../Images/pic4.jpg";
 import { Image } from '@chakra-ui/react';
+import {IoIosArrowRoundForward} from "react-icons/io"
 export const Section1 = () => {
   return (
     <span id={appStyles.section1}>
@@ -25,7 +26,7 @@ export const Section1 = () => {
         </div>
         <section id={appStyles.section1Content}>
           <article id={appStyles.section1WeWill}> We will deliver your products within 30 minutes in your town, if we would. </article>
-          <button id={appStyles.section1ContentBtn}><Link id={appStyles.sectionContentBtnLink} to="/products">Go to Shop -{">"} </Link></button>
+          <button id={appStyles.section1ContentBtn}><Link id={appStyles.section1ContentBtnLink} to="/products">Go to Shop <IoIosArrowRoundForward style={{marginTop:"-0.3em"}} size={"2.5em"}/> </Link></button>
         </section>
         <div id={appStyles.section1ImgContainer2}>
         <Image src={Pic4}/>

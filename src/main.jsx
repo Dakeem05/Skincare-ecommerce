@@ -28,13 +28,13 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ChakraProvider theme={theme}>
     <Routes>
-      <Route path='/services' element={<Services/>} />
-      <Route path='/products' element={<Products/>} />
-      <Route path='/blog' element={<Blog/>} />
-      <Route path='/about' element={<About/>} />
-      <Route path='/cart' element={<Cart/>} />
+      <Route path='services' element={<Services/>} />
+      <Route path='products' element={<Products/>} />
+      <Route path='blog' element={<Blog/>} />
+      <Route path='about' element={<About/>} />
+      <Route path='cart' element={<Cart/>} />
       <Route path='*' element={<Error/>}/>
-      <Route path='/products/:Id' element={<SingleProducts/>}/>
+      <Route path='products/:Id' element={<SingleProducts/>}/>
       {/* <Route path='/home' element={<Home/>} /> */}
       <Route path='/' element={<App/>} />
     </Routes>

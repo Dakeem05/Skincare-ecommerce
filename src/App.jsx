@@ -5,6 +5,7 @@ import { Nav } from "./Components/Common components/Nav";
 import { Hero } from "./Components/Home components/Hero";
 import { Section1 } from "./Components/Home components/Section1";;
 import { Section2 } from "./Components/Home components/Section2";
+import { Section3 } from "./Components/Home components/Section3";
 
 function App() {
   return (
@@ -17,6 +18,10 @@ function App() {
       <section id={appStyles.section2i}>
 
       <Section2/>
+      </section>
+      <section id={appStyles.section3i}>
+      <Section3/>
+
       </section>
     </>
   )

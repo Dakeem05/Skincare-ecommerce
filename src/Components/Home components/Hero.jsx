@@ -6,7 +6,7 @@ import Pic3 from "../../Images/pic3.jpg";
 import Pic4 from "../../Images/ic.jpg";
 import { Image, Text, position } from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
-import {IoIosArrowForward, IoIosHeart, IoIosStar, IoIosStarOutline, IoIosStarHalf, IoMdArrowForward} from "react-icons/io"
+import {IoIosArrowRoundForward, IoIosStar, IoIosStarOutline, IoIosStarHalf, IoMdArrowForward} from "react-icons/io"
 // import {IoIosArro} from "react-icons/io"
 // id={appStyles.}
 export const Hero = () => {
@@ -44,7 +44,7 @@ export const Hero = () => {
           </div>
           <section id={appStyles.content}>
             <article style={{width:"25vw"}}> We will deliver your products within 30 minutes in your town, if we would. </article>
-            <button id={appStyles.contentBtn}><Link id={appStyles.contentBtnLink} to="/products">Products <IoMdArrowForward/> </Link></button>
+            <button id={appStyles.contentBtn}><Link id={appStyles.contentBtnLink} to="/products">Products <IoIosArrowRoundForward size={"1.7em"}/> </Link></button>
           </section>
           <div id={appStyles.float2}>
 
@@ -72,8 +72,7 @@ export const Hero = () => {
             <span className={appStyles.heroWewill}>We will deliver your products anywhere</span>
             <span id={appStyles.heroArrow1}>
               <span id={appStyles.heroArrow}>
-
-              {"->"}
+                <IoIosArrowRoundForward size={"1.2em"} style={{marginTop:"0.2em"}}/>
               </span>
               </span>
             </span>
@@ -94,8 +93,7 @@ export const Hero = () => {
             <span className={appStyles.heroWewill}>We will deliver your products anywhere</span>
             <span id={appStyles.heroArrow2}>
                <span  id={appStyles.heroArrow}>
-
-              {"->"}
+               <IoIosArrowRoundForward size={"1.2em"} style={{marginTop:"0.2em"}}/>
               </span>  
             </span>
           </span>
@@ -124,8 +122,7 @@ export const Hero = () => {
             </span>
             <button  type='submit' id={appStyles.heroArrow3}>
               <span id={appStyles.heroArr}>
-
-              -{">"}
+              <IoIosArrowRoundForward  style={{fontSize:"1.5em", top:"-0.15em", left:"-0.4em", position:"absolute"}}/>
               </span>
               </button>
               </form>
