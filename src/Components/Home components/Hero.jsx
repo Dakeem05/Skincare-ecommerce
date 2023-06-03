@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import appStyles from "../../App.module.css"
 import Pic1 from "../../Images/pic1.jpg";
-import Pic2 from "../../Images/pic2.jpg";
+import Pic2 from "../../Images/pic2-bg.png";
 import Pic3 from "../../Images/pic3.jpg";
 import Pic4 from "../../Images/ic.jpg";
 import { Image, Text, position } from '@chakra-ui/react';

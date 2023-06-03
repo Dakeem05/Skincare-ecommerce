@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import appStyles from "../../../src/App.module.css";
 import { Link } from 'react-router-dom';
-import Logo from "../../Images/logo.jpg"
+import Logo from "../../Images/logo.png"
 import { Box, Text, Flex, Button, chakra, HStack, Image } from "@chakra-ui/react";
 import { MobileDrawer } from './MobileDrawer';
 import {AiOutlineShopping} from "react-icons/ai";
@@ -39,15 +39,11 @@ export const Nav = ({navId_home, navId_services, navId_about, navId_products, na
          id={appStyles.navHeader} 
          >
           <Flex 
-            // w="100%"
-            // px="6"
-            py="3"
             align="center"
             justify="space-between"
-            
+            style={{marginTop:"-2em", marginLeft:"-3em"}}
           >
             <Image id={appStyles.logo} src={Logo}/>
-            {/* <Text color={"white"} id={appStyles.title}  >Michael Bassey</Text> */}
             <HStack color={"white"} className={appStyles.nav} as="nav" spacing={7}
              
             >
